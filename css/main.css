@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: auto;
+}
+
+header {
+    background: rgb(48, 181, 164);
+    text-align: center;
+    margin: 20px;
+    border-bottom: solid 10px rgb(20, 101, 112);
+    padding: 30px;
+
+}
+nav{
+    background: rgb(175, 240, 228);
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+        
+}
+
+h1 {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Comfortaa", sans-serif;
+    margin-left: 40px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 54, 161);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+
+#foto-perfil {
+    width: 300px;
+    border-radius: 20px;
+    float: inline-start;
+    margin: 20px;
+}
