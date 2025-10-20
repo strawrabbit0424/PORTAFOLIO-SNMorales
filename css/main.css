@@ -163,12 +163,26 @@ progress {
     padding-right: 20px;
 }
 
-.campos input {
+.campos input,
+select {
     padding: 10px;
     border: solid 5px #3e8284;
     width: 50%;
     font-size: 20px;
     border-radius: 10px;
+}
+
+.campos button {
+    background-color: #3e8284;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.campos .opciones {
+    width: 20px;
 }
 
 footer {
@@ -177,5 +191,9 @@ footer {
     background-color: rgb(48, 181, 164);
     text-align: center;
     border-top: solid 10px rgb(20, 101, 112);
-    ;
+}
+
+footer p {
+    font-family: "Lato", sans-serif;
+    color: rgb(219, 224, 236);
 }
