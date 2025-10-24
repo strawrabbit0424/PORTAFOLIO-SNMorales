@@ -32,10 +32,11 @@ h4 {
     color: rgb(239, 233, 244);
 }
 
-h2{
+h2 {
     font-family: "Comfortaa", sans-serif;
     text-align: center;
 }
+
 h3 {
     font-family: "Comfortaa", sans-serif;
 }
@@ -78,7 +79,7 @@ nav {
     background-color: rgba(137, 188, 179, 0.779);
 }
 
-#sobreMi{
+#sobreMi {
     display: flex;
 }
 
@@ -87,7 +88,7 @@ nav {
     border-radius: 50px;
     float: right;
     margin: 50px;
-   
+
 }
 
 main {
@@ -187,9 +188,15 @@ select {
     border-radius: 10px;
 }
 
-.campos{
+.campos {
     padding: 10px;
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente label e input */
+    margin-bottom: 10px;
+    /* Espacio entre campos */
 }
+
 .campos button {
     background-color: #3e8284;
     color: #ffffff;
@@ -199,14 +206,24 @@ select {
     border-radius: 10px;
 }
 
+.campos label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
 
+.campos input,
+.campos select {
+    flex: 1;
+    padding: 5px;
+}
 
 
 
 footer {
     overflow: hidden;
-    padding: 40px 0;
-  background: rgb(72, 77, 109);
+    padding: 20px;
+    background: rgb(72, 77, 109);
     text-align: center;
     border-top: solid 10px rgb(32, 6, 99);
 }
