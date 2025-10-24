@@ -6,27 +6,36 @@
 
 body {
     font-family: "Lato", sans-serif;
+    background: rgb(239, 233, 244)
 }
 
+
+
 header {
-    background: rgb(48, 181, 164);
+    background: rgb(72, 77, 109);
     text-align: center;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    border-bottom: solid 10px rgb(20, 101, 112);
+    border-bottom: solid 10px rgb(32, 6, 99);
     padding: 30px;
 
 }
 
-
-
 h1 {
     font-family: "Comfortaa", sans-serif;
     font-size: 50px;
+    color: rgb(239, 233, 244);
 }
 
-h2,
+h4 {
+    color: rgb(239, 233, 244);
+}
+
+h2{
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
 h3 {
     font-family: "Comfortaa", sans-serif;
 }
@@ -34,6 +43,7 @@ h3 {
 p {
     font-family: "Lato", sans-serif;
     color: rgb(0, 54, 161);
+    padding: 50px;
 }
 
 .bi {
@@ -47,7 +57,7 @@ p {
 }
 
 nav {
-    background: rgb(175, 240, 228);
+    background: rgb(72, 77, 109);
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -58,7 +68,7 @@ nav {
 
 #menu-principal a {
     text-decoration: none;
-    color: #000000;
+    color: rgb(239, 233, 244);
     font-size: 25px;
     font-weight: bolder;
 }
@@ -68,12 +78,16 @@ nav {
     background-color: rgba(137, 188, 179, 0.779);
 }
 
+#sobreMi{
+    display: flex;
+}
 
 #foto-perfil {
     width: 300px;
-    border-radius: 20px;
+    border-radius: 50px;
     float: right;
-    margin: 20px;
+    margin: 50px;
+   
 }
 
 main {
@@ -90,6 +104,7 @@ section {
     margin-top: 30px;
     text-align: center;
 }
+
 
 #lista-proyectos {
     display: flex;
@@ -172,6 +187,9 @@ select {
     border-radius: 10px;
 }
 
+.campos{
+    padding: 10px;
+}
 .campos button {
     background-color: #3e8284;
     color: #ffffff;
@@ -181,16 +199,16 @@ select {
     border-radius: 10px;
 }
 
-.campos .opciones {
-    width: 20px;
-}
+
+
+
 
 footer {
     overflow: hidden;
     padding: 40px 0;
-    background-color: rgb(48, 181, 164);
+  background: rgb(72, 77, 109);
     text-align: center;
-    border-top: solid 10px rgb(20, 101, 112);
+    border-top: solid 10px rgb(32, 6, 99);
 }
 
 footer p {
